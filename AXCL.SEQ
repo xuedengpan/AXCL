@@ -1,0 +1,16 @@
+RES CV_LENS:ag_dblgauss
+
+FIE
+ LSA
+GO
+
+AUT
+ @AXCL == (Y SI Z1 F1 WL R2) * (N SI Z1 F1 WL R2) / (M SI Z1 F1 WL R2) - (Y SI Z1 F1 W1 R2) * (N SI Z1 F1 W1 R2) / (M SI Z1 F1 W1 R2)
+ @AXCL = 0
+
+ EFL = (EFL)
+GO
+
+FIE
+ LSA
+GO
