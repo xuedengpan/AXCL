@@ -32,3 +32,41 @@ GO
 FIE
  LSA
 GO
+
+
+RES CV_LENS:ag_dblgauss
+
+FIE
+ LSA
+GO
+
+AUT
+ RAY R6 F1 0 1
+ @AXCL == (Y SI Z1 F1 WL R6) * (N SI Z1 F1 WL R6) / (M SI Z1 F1 WL R6) - (Y SI Z1 F1 W1 R6) * (N SI Z1 F1 W1 R6) / (M SI Z1 F1 W1 R6)
+ @AXCL = 0
+
+ EFL = (EFL)
+GO
+
+FIE
+ LSA
+GO
+
+
+RES CV_LENS:ag_dblgauss
+
+FIE
+ LSA
+GO
+
+AUT
+ RAY R6 F1 0 0.707
+ @AXCL == (Y SI Z1 F1 WL R6) * (N SI Z1 F1 WL R6) / (M SI Z1 F1 WL R6) - (Y SI Z1 F1 W1 R6) * (N SI Z1 F1 W1 R6) / (M SI Z1 F1 W1 R6)
+ @AXCL = 0
+
+ EFL = (EFL)
+GO
+
+FIE
+ LSA
+GO
