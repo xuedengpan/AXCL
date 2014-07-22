@@ -70,3 +70,21 @@ GO
 FIE
  LSA
 GO
+
+
+RES CV_LENS:ag_dblgauss
+
+FIE
+ LSA
+GO
+
+AUT
+ @AXCL == (HMY SI WL) / (UMY SI WL) - (HMY SI W1) / (UMY SI W1)
+ @AXCL = 0
+
+ EFL = (EFL)
+GO
+
+FIE
+ LSA
+GO
